@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tata Sky</title>
+	<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #82e8ee;
+    padding: 10px 60px;
+}
+	.navs ul li{
+		list-style: none;
+		float: left;
+		padding-right: 30px;
+	}
+	.navs li a{
+		text-decoration: none;
+		font-family: 'Frank Ruhl Libre', serif;
+		font-family: 'Zen Maru Gothic', serif;
+		color: #045358;
+	}
+	.navs li a:hover{
+		border-bottom: 1px solid #045358;
+		border-top: 1px solid #045358;
+		padding-bottom: 5px;
+		padding-top: 4px;
+		transition: 0.5s;
+		color: #001c1e;
+	}		
+	.banner-img{
+		
+		background: url("banner.jpg") no-repeat;
+		background-color: #FFF;
+		background-size: 100%;
+		height:636px;
+		position: relative;
+		
+	}
+	.banner-content{
+		position: absolute;
+		top: 35%;
+		left: 7%;
+	}
+	.banner-content h2{
+		font-size: 40px;
+		font-family: 'Berkshire Swash', serif;
+		color: black;
+		letter-spacing: 1px;
+		color: black;	
+		
+		background: rgb(255, 255, 255, 0.2);
+		padding: 25px;			
+	}
+	.banner-content p{
+		font-size: 20px;
+		color: black;
+		padding-top: 8px;		
+	}
+	.pars{
+		position: absolute;		
+		text-align: justify;
+		background: rgb(130, 232, 238, 1);
+	}
+	.pars p{
+		padding: 25px;
+		height: 60px;
+		overflow: hidden;
+	}	
+	.three-logo-section h1{		
+		margin-top: 4%;
+		letter-spacing: 2px;
+		color: white;display: flex;
+		justify-content: center;
+	}
+	.border-three {
+		width: 250px;
+		border-bottom: 4px solid #82e8ee;
+		padding-bottom:30px;	
+		margin: 0 auto;
+		margin-bottom:50px ;
+	}
+
+	.services-section{
+		background-color: #000;
+		float: left;
+		width: 100%;
+	
+	}
+	.three-logo-banner {
+    /* width: 20%; */
+    /* float: left; */
+    /* margin-left: 10%; */
+    /* margin-bottom: 5%; */
+    color: white;
+    text-align: center;
+}
+
+	.fa-solid {
+		font-size: 120px;
+		color: #82e8ee;	
+		padding-top: 25px;	
+	}
+	.fa-regular{
+		font-size: 120px;
+		color: #82e8ee;	
+		padding-top: 25px;
+	}
+	.sheading h2{
+		color: white;
+		padding-top: 18px;
+	}
+	.one-para p{
+		padding-top: 15px;
+		padding-bottom: 25px;
+	}
+
+
+	.testimonial h1{
+		color: white;
+		text-align: center;
+	}
+	.line{
+		    width: 250px;
+		    border-bottom: 4px solid #82e8ee;
+		    padding-bottom: 30px;
+		    margin: 0 auto;
+		    margin-bottom: 50px;
+	}
+	.container .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+</style>
+<body>
+	<!-- started header -->
+	<header>
+		<div class="logo">
+			<img src="..\images\logo.png" width="200px">		
+		</div> <!-- end of logo -->
+		<div class="navs">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>			
+		</div>  <!-- end of nav-bar -->
+	</header> <!-- started header -->
+	<!-- started banner -->
+	<div class="banner">
+		<div class="banner-img">
+			<!-- <img src="..\images\banner.jpg" > -->
+		</div><!-- end of banner-img -->
+
+		<div class="banner-content">
+			<h2>Entertainment with Tata Sky <p>Your Gateway to Limitless Entertainment Choices!"</p></h2>	
+			<div class="pars"><p class="paras">In hac habitasse platea dictumst. Morbi justo nunc, tincidunt id purus eu, euismod pharetra sapien. Nullam elementum enim ac orci fermentum pulvinar. Aenean efficitur risus ac convallis dictum. Nunc dui eros, rutrum a rutrum eu, lacinia et felis. Phasellus dui nibh, consequat vitae interdum eu, vestibulum et purus. Proin vulputate velit et cursus sagittis. Etiam ante lectus, finibus eu varius sit amet, semper vitae ante. Pellentesque dapibus luctus nisi, volutpat feugiat velit varius quis. Integer nec mauris eleifend, consequat eros quis, tincidunt nisl. Cras accumsan dolor ac felis tempor iaculis. Integer sed arcu porttitor, euismod ligula id, viverra nibh. Maecenas accumsan ut magna id ultricies.</p>
+			</div><!-- end of pars -->		
+		</div> <!-- end of banner-content -->					
+	</div> <!-- end of banner -->	
+<section>
+	<div class="container">
+		<div class="row">
+			<div>
+				<div class="three-logo-banner">						
+				<i class="fa-solid fa-anchor"></i>		
+				<div class="sheading">
+					<h2>Some Heading</h2>
+				</div> <!-- end of Heading -->
+				<div class="one-para">
+					<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+				</div><!-- end of one-para -->
+		</div><!-- end of three-logo-banner -->
+			</div>
+			<div>
+				<div class="three-logo-banner">						
+				<i class="fa-solid fa-chart-simple"></i>		
+				<div class="sheading">
+					<h2>Some Heading</h2>
+				</div> <!-- end of Heading -->
+				<div class="one-para">
+					<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+				</div><!-- end of one-para -->
+		</div><!-- end of three-logo-banner -->
+			</div>
+			<div>
+				<div class="three-logo-banner">						
+			<i class="fa-regular fa-gem"></i>	
+				<div class="sheading">
+					<h2>Some Heading</h2>
+				</div> <!-- end of Heading -->
+				<div class="one-para">
+					<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+				</div><!-- end of one-para -->
+		</div><!-- end of three-logo-banner -->
+			</div>
+			<div>
+				<div class="three-logo-banner">						
+			<i class="fa-regular fa-gem"></i>	
+				<div class="sheading">
+					<h2>Some Heading</h2>
+				</div> <!-- end of Heading -->
+				<div class="one-para">
+					<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+				</div><!-- end of one-para -->
+		</div><!-- end of three-logo-banner -->
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="services-section">
+	<div class="three-logo-section">
+		<h1>Some Heading Gose Here<br></h1>
+		<div class="border-three">
+			<p></p>
+		</div>		
+	</div> <!-- end of three-logo-section -->
+
+	<div class="three-box">
+</section>
+	<section>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</section>
+
+	<!-- started of testimonial -->
+
+		<!-- <div class="teskgkjtimonial">
+		<div class="monials"><h1>Testimonials</h1></div>	
+			<div class="line">
+				<span></span>
+			</div>
+		</div>  -->
+		<!-- end of testimonial -->
+</body>
+</html>
